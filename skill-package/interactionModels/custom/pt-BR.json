@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "chat gpt",
+      "invocationName": "chat g p t",
       "intents": [
         {
           "name": "AskChatGPTIntent",
