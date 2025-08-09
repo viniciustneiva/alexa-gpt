@@ -1,0 +1,25 @@
+{
+  "name": "alexa-gpt",
+  "version": "1.0.0",
+  "description": "A simple Alexa Skill integrated with ChatGPT",
+  "main": "index.js",
+  "homepage": "https://github.com/viniciustneiva/alexa-gpt#readme",
+  "bugs": {
+    "url": "https://github.com/viniciustneiva/alexa-gpt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciustneiva/alexa-gpt.git"
+  },
+  "author": "Vinicius Neiva",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.12.0",
+    "ask-sdk-model": "^1.27.0",
+    "aws-sdk": "^2.1692.0",
+    "node-fetch": "^2.6.7"
+  }
+}
