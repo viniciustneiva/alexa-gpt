@@ -1,7 +1,8 @@
 const Alexa = require('ask-sdk-core');
 const fetch = require('node-fetch');
+const env = require('dotenv').config();
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_API_KEY = env.OPENAI_API_KEY;
 
 const AskChatGPTIntentHandler = {
     canHandle(handlerInput) {
